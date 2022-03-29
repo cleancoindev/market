@@ -40,7 +40,7 @@ export default function CustomProvider(props: InputProps): ReactElement {
   }
 
   function handleFileInfoClose() {
-    helpers.setValue({ url: '', valid: false })
+    helpers.setValue({ url: '', valid: false, custom: true })
     helpers.setTouched(false)
   }
 
@@ -51,8 +51,7 @@ export default function CustomProvider(props: InputProps): ReactElement {
     const providerUrl =
       oceanConfig?.providerUri || initialValues.services[0].providerUrl.url
 
-    console.log(providerUrl)
-    helpers.setValue({ url: providerUrl, valid: true })
+    helpers.setValue({ url: providerUrl, valid: true, custom: false })
   }
 
   return field?.value?.valid ? (

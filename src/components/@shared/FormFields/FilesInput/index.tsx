@@ -46,7 +46,7 @@ export default function FilesInput(props: InputProps): ReactElement {
 
   return (
     <>
-      {field.value[0].valid === true ? (
+      {field?.value && field?.value[0]?.valid === true ? (
         <FileInfo file={field.value[0]} handleClose={handleClose} />
       ) : (
         <UrlInput

@@ -21,7 +21,7 @@
     "@coingecko/cryptoformat": "^0.4.4",
     "@loadable/component": "^5.15.2",
     "@oceanprotocol/art": "^3.2.0",
-    "@oceanprotocol/lib": "^1.0.0-next.32",
+    "@oceanprotocol/lib": "^1.0.0",
     "@oceanprotocol/typographies": "^0.1.0",
     "@portis/web3": "^4.0.7",
     "@tippyjs/react": "^4.2.6",
@@ -65,7 +65,7 @@
     "swr": "^1.2.2",
     "urql": "^2.2.0",
     "use-dark-mode": "^2.3.1",
-    "web3": "^1.7.1",
+    "web3": "^1.7.5",
     "web3modal": "^1.9.5",
     "yup": "^0.32.11"
   },
